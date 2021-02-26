@@ -58,9 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\CyberPunk\Scripts\Perspective2DSortMode.cs" />
     <Compile Include="Assets\Scripts\moverPersonake.cs" />
+    <Compile Include="Assets\Scripts\Control.cs" />
     <Compile Include="Assets\CyberPunk\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\Scripts\pressSpace.cs" />
-    <Compile Include="Assets\Scripts\Control.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

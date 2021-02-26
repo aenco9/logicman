@@ -26,7 +26,7 @@ public class moverPersonake : MonoBehaviour
         if (movVertical > 0)
         {
             //rigidbody.velocity = new Vector2(rigidbody.velocity.x, movVertical * velocidadY);
-            rigidbody.AddForce(Vector2.up * maxVelocidadY);
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, movVertical * maxVelocidadY);
         }
 
 
