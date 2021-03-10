@@ -1,0 +1,1704 @@
+fileFormatVersion: 2
+guid: 469ea1599bfd98c47b8fdd4416f84b5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3365230986567911658
+    second: Custom Edited - Metroid Customs - GF Trooper 1_0
+  - first:
+      213: 6426994123946299147
+    second: Custom Edited - Metroid Customs - GF Trooper 1_1
+  - first:
+      213: 419170638022763977
+    second: Custom Edited - Metroid Customs - GF Trooper 1_2
+  - first:
+      213: 2750550419562817125
+    second: Custom Edited - Metroid Customs - GF Trooper 1_3
+  - first:
+      213: -6289767026430642310
+    second: Custom Edited - Metroid Customs - GF Trooper 1_4
+  - first:
+      213: 7905749477305146841
+    second: Custom Edited - Metroid Customs - GF Trooper 1_5
+  - first:
+      213: 4486773239815854814
+    second: Custom Edited - Metroid Customs - GF Trooper 1_6
+  - first:
+      213: 7411407981902016072
+    second: Custom Edited - Metroid Customs - GF Trooper 1_7
+  - first:
+      213: -5322184931913065545
+    second: Custom Edited - Metroid Customs - GF Trooper 1_8
+  - first:
+      213: -2498911223722165413
+    second: Custom Edited - Metroid Customs - GF Trooper 1_9
+  - first:
+      213: 1995553273500874078
+    second: Custom Edited - Metroid Customs - GF Trooper 1_10
+  - first:
+      213: 44907568938293561
+    second: Custom Edited - Metroid Customs - GF Trooper 1_11
+  - first:
+      213: 8821108058734830701
+    second: Custom Edited - Metroid Customs - GF Trooper 1_12
+  - first:
+      213: -8510598748014706270
+    second: Custom Edited - Metroid Customs - GF Trooper 1_13
+  - first:
+      213: -6796376099660696340
+    second: Custom Edited - Metroid Customs - GF Trooper 1_14
+  - first:
+      213: 3537980957268180928
+    second: Custom Edited - Metroid Customs - GF Trooper 1_15
+  - first:
+      213: 3823530601997930071
+    second: Custom Edited - Metroid Customs - GF Trooper 1_16
+  - first:
+      213: -4769856606833861104
+    second: Custom Edited - Metroid Customs - GF Trooper 1_17
+  - first:
+      213: -6131479471681549274
+    second: Custom Edited - Metroid Customs - GF Trooper 1_18
+  - first:
+      213: -82432595516993138
+    second: Custom Edited - Metroid Customs - GF Trooper 1_19
+  - first:
+      213: -7505768778325822948
+    second: Custom Edited - Metroid Customs - GF Trooper 1_20
+  - first:
+      213: 5767059337244809635
+    second: Custom Edited - Metroid Customs - GF Trooper 1_21
+  - first:
+      213: 8013658304155293506
+    second: Custom Edited - Metroid Customs - GF Trooper 1_22
+  - first:
+      213: -8901302871390230114
+    second: Custom Edited - Metroid Customs - GF Trooper 1_23
+  - first:
+      213: 5253047296974872523
+    second: Custom Edited - Metroid Customs - GF Trooper 1_24
+  - first:
+      213: 913192791916325100
+    second: Custom Edited - Metroid Customs - GF Trooper 1_25
+  - first:
+      213: 1736130353390911044
+    second: Custom Edited - Metroid Customs - GF Trooper 1_26
+  - first:
+      213: 2094394774817316493
+    second: Custom Edited - Metroid Customs - GF Trooper 1_27
+  - first:
+      213: -298594864163707302
+    second: Custom Edited - Metroid Customs - GF Trooper 1_28
+  - first:
+      213: 8763927065844478739
+    second: Custom Edited - Metroid Customs - GF Trooper 1_29
+  - first:
+      213: -3224040823866033913
+    second: Custom Edited - Metroid Customs - GF Trooper 1_30
+  - first:
+      213: 7462977311603821203
+    second: Custom Edited - Metroid Customs - GF Trooper 1_31
+  - first:
+      213: -2920548598528807425
+    second: Custom Edited - Metroid Customs - GF Trooper 1_32
+  - first:
+      213: -5345663624898734666
+    second: Custom Edited - Metroid Customs - GF Trooper 1_33
+  - first:
+      213: 1551777810285903069
+    second: Custom Edited - Metroid Customs - GF Trooper 1_34
+  - first:
+      213: -8176838892779721316
+    second: Custom Edited - Metroid Customs - GF Trooper 1_35
+  - first:
+      213: 2355067875980675346
+    second: Custom Edited - Metroid Customs - GF Trooper 1_36
+  - first:
+      213: 2949716328417013727
+    second: Custom Edited - Metroid Customs - GF Trooper 1_37
+  - first:
+      213: 1980208459263109351
+    second: Custom Edited - Metroid Customs - GF Trooper 1_38
+  - first:
+      213: -7675420856568822651
+    second: Custom Edited - Metroid Customs - GF Trooper 1_39
+  - first:
+      213: 328616680943749581
+    second: Custom Edited - Metroid Customs - GF Trooper 1_40
+  - first:
+      213: 5216380693834900193
+    second: Custom Edited - Metroid Customs - GF Trooper 1_41
+  - first:
+      213: -6048340005402967315
+    second: Custom Edited - Metroid Customs - GF Trooper 1_42
+  - first:
+      213: 7777906605472414691
+    second: Custom Edited - Metroid Customs - GF Trooper 1_43
+  - first:
+      213: 1135501847237213333
+    second: Custom Edited - Metroid Customs - GF Trooper 1_44
+  - first:
+      213: 6356832360033209438
+    second: Custom Edited - Metroid Customs - GF Trooper 1_45
+  - first:
+      213: -6445371432688777568
+    second: Custom Edited - Metroid Customs - GF Trooper 1_46
+  - first:
+      213: 6999715083968249680
+    second: Custom Edited - Metroid Customs - GF Trooper 1_47
+  - first:
+      213: -8015298663222909531
+    second: Custom Edited - Metroid Customs - GF Trooper 1_48
+  - first:
+      213: -2568065404964238015
+    second: Custom Edited - Metroid Customs - GF Trooper 1_49
+  - first:
+      213: -1708750796609118394
+    second: Custom Edited - Metroid Customs - GF Trooper 1_50
+  - first:
+      213: -3150406673824625259
+    second: Custom Edited - Metroid Customs - GF Trooper 1_51
+  - first:
+      213: -1540631978667673497
+    second: Custom Edited - Metroid Customs - GF Trooper 1_52
+  - first:
+      213: 2098184542999065507
+    second: Custom Edited - Metroid Customs - GF Trooper 1_53
+  - first:
+      213: 4863199631011179126
+    second: Custom Edited - Metroid Customs - GF Trooper 1_54
+  - first:
+      213: 313018505636550757
+    second: Custom Edited - Metroid Customs - GF Trooper 1_55
+  - first:
+      213: -4671311228218522986
+    second: Custom Edited - Metroid Customs - GF Trooper 1_56
+  - first:
+      213: -7755010215257619079
+    second: Custom Edited - Metroid Customs - GF Trooper 1_57
+  - first:
+      213: -8348143441445302237
+    second: Custom Edited - Metroid Customs - GF Trooper 1_58
+  - first:
+      213: -6367533758093295382
+    second: Custom Edited - Metroid Customs - GF Trooper 1_59
+  - first:
+      213: -2332079195761100389
+    second: Custom Edited - Metroid Customs - GF Trooper 1_60
+  - first:
+      213: -2408747609153911323
+    second: Custom Edited - Metroid Customs - GF Trooper 1_61
+  - first:
+      213: 8019966687729283268
+    second: Custom Edited - Metroid Customs - GF Trooper 1_62
+  - first:
+      213: 1207498383053734591
+    second: Custom Edited - Metroid Customs - GF Trooper 1_63
+  - first:
+      213: 3735799009970832864
+    second: Custom Edited - Metroid Customs - GF Trooper 1_64
+  - first:
+      213: 4718239468765160085
+    second: Custom Edited - Metroid Customs - GF Trooper 1_65
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 700
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae88485a0c3b3be20800000000000000
+      internalID: 3365230986567911658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 700
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f8753aa15413950800000000000000
+      internalID: 6426994123946299147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 700
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ee93797131d500800000000000000
+      internalID: 419170638022763977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 700
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e7d6980beb2620800000000000000
+      internalID: 2750550419562817125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 699
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f2adc63246b8a0800000000000000
+      internalID: -6289767026430642310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 700
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd00e534dd6bd60800000000000000
+      internalID: 7905749477305146841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 650
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edad3fa5d78344e30800000000000000
+      internalID: 4486773239815854814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 650
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ea3ceca4c9ad660800000000000000
+      internalID: 7411407981902016072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 650
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb9268a00dc326b0800000000000000
+      internalID: -5322184931913065545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 650
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bbdc85b75125dd0800000000000000
+      internalID: -2498911223722165413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 652
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55336d1121a1bb10800000000000000
+      internalID: 1995553273500874078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 601
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9391b4e223b8f9000800000000000000
+      internalID: 44907568938293561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 599
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64a93e0b0fda6a70800000000000000
+      internalID: 8821108058734830701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 598
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a103be978744e980800000000000000
+      internalID: -8510598748014706270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 598
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f4c332fb6ea1a0800000000000000
+      internalID: -6796376099660696340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 598
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff0148fee691130800000000000000
+      internalID: 3537980957268180928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 551
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0ce713d8ef0530800000000000000
+      internalID: 3823530601997930071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 551
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e1e1810b01ecdb0800000000000000
+      internalID: -4769856606833861104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 551
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c42de08eb98eaa0800000000000000
+      internalID: -6131479471681549274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 551
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81db4abdf32bdef0800000000000000
+      internalID: -82432595516993138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 551
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12fba9301726d790800000000000000
+      internalID: -7505768778325822948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 495
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9931b79e5b80050800000000000000
+      internalID: 5767059337244809635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 491
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247198af4cb363f60800000000000000
+      internalID: 8013658304155293506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 491
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99ee981338387480800000000000000
+      internalID: -8901302871390230114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 492
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf538c4fa296e840800000000000000
+      internalID: 5253047296974872523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 494
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8ae9581005cac00800000000000000
+      internalID: 913192791916325100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 432
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e73a5ab59f71810800000000000000
+      internalID: 1736130353390911044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 432
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9b6c73f8c01d10800000000000000
+      internalID: 2094394774817316493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 430
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5624c59d8d2bdbf0800000000000000
+      internalID: -298594864163707302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 430
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313771dab39bf9970800000000000000
+      internalID: 8763927065844478739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 429
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7097b10d3f7e143d0800000000000000
+      internalID: -3224040823866033913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 369
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a02f80352d19760800000000000000
+      internalID: 7462977311603821203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_32
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 369
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdec6bf5802877d0800000000000000
+      internalID: -2920548598528807425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 369
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51f25714360d5b0800000000000000
+      internalID: -5345663624898734666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 369
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcbc6062b5098510800000000000000
+      internalID: 1551777810285903069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 371
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d244a8958068e80800000000000000
+      internalID: -8176838892779721316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 305
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21903c961c1eea020800000000000000
+      internalID: 2355067875980675346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 301
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf27775f5f7fe820800000000000000
+      internalID: 2949716328417013727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 301
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e9932a1d1b7b10800000000000000
+      internalID: 1980208459263109351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 302
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5844796a56d6b7590800000000000000
+      internalID: -7675420856568822651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_40
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 304
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc98be6512b7f8400800000000000000
+      internalID: 328616680943749581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 245
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e22c3d7a9e446840800000000000000
+      internalID: 5216380693834900193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 244
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de20c218fcaff0ca0800000000000000
+      internalID: -6048340005402967315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 244
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebf85b39dca0fb60800000000000000
+      internalID: 7777906605472414691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 244
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cbf56f9ec12cf00800000000000000
+      internalID: 1135501847237213333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_45
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 244
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ccc7cf951083850800000000000000
+      internalID: 6356832360033209438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 180
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6822db4d07d86a0800000000000000
+      internalID: -6445371432688777568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ffed468cbf32160800000000000000
+      internalID: 6999715083968249680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_48
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 179
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a56fe92550f3c090800000000000000
+      internalID: -8015298663222909531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 179
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d0321de166c5cd0800000000000000
+      internalID: -2568065404964238015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_50
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 178
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f927e243c4948e0800000000000000
+      internalID: -1708750796609118394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 127
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc9ac52d18744d0800000000000000
+      internalID: -3150406673824625259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768f7e5c0639e9ae0800000000000000
+      internalID: -1540631978667673497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_53
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 127
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bca6a9bf3e1d10800000000000000
+      internalID: 2098184542999065507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_54
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 127
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a6b3e4c4e8d7340800000000000000
+      internalID: 4863199631011179126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_55
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 129
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56817942ca0185400800000000000000
+      internalID: 313018505636550757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 66
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692cdb6003b2c2fb0800000000000000
+      internalID: -4671311228218522986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_57
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 67
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9754b0a0c4ba06490800000000000000
+      internalID: -7755010215257619079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_58
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 67
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32055a635cf652c80800000000000000
+      internalID: -8348143441445302237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_59
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 68
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae08a8d98c9f1a7a0800000000000000
+      internalID: -6367533758093295382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_60
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 70
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99b49cc35ac2afd0800000000000000
+      internalID: -2332079195761100389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54fc2cfc8629ed0800000000000000
+      internalID: -2408747609153911323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 15
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0f19cf535ac4f60800000000000000
+      internalID: 8019966687729283268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_63
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 15
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2c6ccb165e1c010800000000000000
+      internalID: 1207498383053734591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_64
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 15
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5419d086938d330800000000000000
+      internalID: 3735799009970832864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Metroid Customs - GF Trooper 1_65
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 15
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592a9fc6ccd8a7140800000000000000
+      internalID: 4718239468765160085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
