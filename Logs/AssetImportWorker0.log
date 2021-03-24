@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 16315 MB
+OS: 'Windows 10 Education; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Alex/Unity Projs/Internet2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13577
+1796
 Successfully changed project path to: C:/Users/Alex/Unity Projs/Internet2
 C:/Users/Alex/Unity Projs/Internet2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,186 +35,114 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001887 seconds.
+Registered in 0.001942 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 32.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.588 seconds
+- Completed reload, in  1.576 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000771 seconds.
+Registered in 0.000769 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 32.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.793 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.6 MB.
-System memory in use after: 84.6 MB.
+System memory in use after: 84.7 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2251.
-Total: 1.929300 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.115100 ms MarkObjects: 1.433800 ms  DeleteObjects: 0.056400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Personaje
-  artifactKey: Guid(9c59bf9c711dd2348bb22bb1da230f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje using Guid(9c59bf9c711dd2348bb22bb1da230f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d441d6b128902614d96e9ccb932fc43') in 0.010146 seconds
-  Import took 0.013380 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 1.905800 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.590600 ms  DeleteObjects: 0.054300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.301711 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png
-  artifactKey: Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png using Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cada681168a65275d810845440f0dbee') in 0.138014 seconds
-  Import took 0.141745 seconds .
+  path: Assets/Scenes/Login2.unity
+  artifactKey: Guid(b6d31fd085cf42242ae8b800488b32a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Login2.unity using Guid(b6d31fd085cf42242ae8b800488b32a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c4ed21c17452eddc7215d9b8222281') in 0.013956 seconds
+  Import took 0.016572 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.628283 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png
-  artifactKey: Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png using Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee21f17d5d9003e609dde5c3c98dd1b4') in 0.018937 seconds
-  Import took 0.022844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.036038 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png
-  artifactKey: Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper.png using Guid(94248440ec777a3448c03b18ebed8b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c72c50873a7290a177140ed14b87e9') in 0.013522 seconds
-  Import took 0.017212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.597545 seconds.
-  path: Assets/Personaje/21285.png
-  artifactKey: Guid(3ca2c43fcd975384283c232e66c61a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/21285.png using Guid(3ca2c43fcd975384283c232e66c61a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feda9555709d64937986a03b81dd3ab') in 0.024314 seconds
-  Import took 0.027246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.427646 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/player/hurt
-  artifactKey: Guid(b0a1288439f5345d296e41ef0f242702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/player/hurt using Guid(b0a1288439f5345d296e41ef0f242702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a7a72b888bdfd05c7e7ac07e6fa5ac') in 0.006714 seconds
-  Import took 0.010469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.639614 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion
-  artifactKey: Guid(1ea8f7d2387fe4429a0f99ceeadf6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion using Guid(1ea8f7d2387fe4429a0f99ceeadf6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462cc89f13583c30d9ff538567a497a5') in 0.007628 seconds
-  Import took 0.011367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 989.598121 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9fe31ad3e8bc16b496ee1ee97e79d9') in 0.024170 seconds
-  Import took 0.027113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.131409 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e307a2e0defd5af6788a40a1568ba94f') in 0.011938 seconds
-  Import took 0.016370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002391 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e307a2e0defd5af6788a40a1568ba94f') in 0.015177 seconds
-  Import took 0.018281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.948811 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd550a6e8238af2fc56f11bb4fc6ee290') in 0.027240 seconds
-  Import took 0.030378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.004004 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c496ad86b969503e039ca84ac442c92b') in 0.014024 seconds
-  Import took 0.017713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 155.963254 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e69a4a694e476d927cf3cb75bfe6b6c') in 0.174810 seconds
-  Import took 0.178209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 452.453192 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3882950093cedf054b13bd9d0b5351ad') in 0.017308 seconds
-  Import took 0.021144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.631407 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4429a436eff4f76c10347d8d216a1e94') in 0.091599 seconds
-  Import took 0.095317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.889923 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png
-  artifactKey: Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1.png using Guid(469ea1599bfd98c47b8fdd4416f84b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92c53ccc88b42a61533b8ef1ae702af') in 0.113266 seconds
-  Import took 0.117070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 378.878629 seconds.
-  path: Assets/Prefabs/personaje.prefab
-  artifactKey: Guid(d7e731de05aebab42aeea6352e26d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/personaje.prefab using Guid(d7e731de05aebab42aeea6352e26d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0db7e35b9f86273cd7c9dcc6df5a35f') in 0.016786 seconds
-  Import took 0.019731 seconds .
+  Time since last request: 47.127994 seconds.
+  path: Assets/Scenes/colliders.unity
+  artifactKey: Guid(3c56e4a1baddac84181ca848bbb02761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/colliders.unity using Guid(3c56e4a1baddac84181ca848bbb02761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0215e910550218eeac3e5153aa73a94') in 0.006008 seconds
+  Import took 0.008497 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000914 seconds.
+Registered in 0.000843 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 1.790600 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.079200 ms MarkObjects: 1.496600 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 554.708159 seconds.
+  path: Assets/Prefabs/banner-big-1 1.controller
+  artifactKey: Guid(9473dcd62b6a71843a4e7c3345d9c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/banner-big-1 1.controller using Guid(9473dcd62b6a71843a4e7c3345d9c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce21c05821743553f6f211369833132') in 0.041801 seconds
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.006419 seconds.
+  path: Assets/Prefabs/logicman.prefab
+  artifactKey: Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/logicman.prefab using Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ebd155fe5772434f2bc4122072ee4') in 0.020782 seconds
+  Import took 0.023468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Prefabs/logicman.prefab
+  artifactKey: Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/logicman.prefab using Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6ebd155fe5772434f2bc4122072ee4') in 0.002908 seconds
+  Import took 0.005262 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000822 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -224,85 +152,142 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
+- Completed reload, in  0.739 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.4 MB.
-System memory in use after: 87.5 MB.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 84.4 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2348.
-Total: 2.368600 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.069700 ms MarkObjects: 2.060600 ms  DeleteObjects: 0.015200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1049.558426 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_0.controller
-  artifactKey: Guid(f45521d8dc814f94fb2f838129a3ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_0.controller using Guid(f45521d8dc814f94fb2f838129a3ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c331c54ac1bb4ee7d15cede2f77615d2') in 0.019255 seconds
-  Import took 0.022298 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 1.949700 ms (FindLiveObjects: 0.226000 ms CreateObjectMapping: 0.097000 ms MarkObjects: 1.585200 ms  DeleteObjects: 0.040500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 148.404562 seconds.
-  path: Assets/Personaje/logicman.anim
-  artifactKey: Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/logicman.anim using Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aacf4a08250ef838e8735aad9c50a1f') in 0.008903 seconds
-  Import took 0.012027 seconds .
+  Time since last request: 76.700377 seconds.
+  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_3.controller
+  artifactKey: Guid(74ffbac5aa498cf46807fa10e0c2f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_3.controller using Guid(74ffbac5aa498cf46807fa10e0c2f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161cea7812b5c7b4c99541c1c9c4d4a0') in 0.018469 seconds
+  Import took 0.021646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/Personaje/logicman.anim
-  artifactKey: Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/logicman.anim using Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aacf4a08250ef838e8735aad9c50a1f') in 0.002391 seconds
-  Import took 0.005306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.066591 seconds.
-  path: Assets/jumpLogicman.anim
-  artifactKey: Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jumpLogicman.anim using Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2480551c4a043268bda47ca785d01ae3') in 0.007040 seconds
-  Import took 0.012161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002603 seconds.
-  path: Assets/jumpLogicman.anim
-  artifactKey: Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jumpLogicman.anim using Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2480551c4a043268bda47ca785d01ae3') in 0.002350 seconds
-  Import took 0.005135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.509817 seconds.
-  path: Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_0.controller
-  artifactKey: Guid(f45521d8dc814f94fb2f838129a3ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/Custom Edited - Metroid Customs - GF Trooper 1_0.controller using Guid(f45521d8dc814f94fb2f838129a3ee8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abce1b1e809bc0605a6b9a079e2785d') in 0.002806 seconds
-  Import took 0.005524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.086017 seconds.
-  path: Assets/jumpLogicman.anim
-  artifactKey: Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/jumpLogicman.anim using Guid(6578d6759ff4d3e4f861bda9b174eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55dbed6ca54d6383bb7234bbea833bf') in 0.003054 seconds
-  Import took 0.006275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.061950 seconds.
-  path: Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller
-  artifactKey: Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller using Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b742bc4be0b7090d74fc7f0455330b') in 0.007975 seconds
-  Import took 0.010946 seconds .
+  Time since last request: 4.036747 seconds.
+  path: Assets/Personaje/idle.anim
+  artifactKey: Guid(e5077de1920e21147b4cbbcf45a7777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personaje/idle.anim using Guid(e5077de1920e21147b4cbbcf45a7777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9851f229ef84cdd8da06ba78567d77bf') in 0.008432 seconds
+  Import took 0.011513 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000809 seconds.
+Registered in 0.000816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 1.883200 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.134800 ms MarkObjects: 1.521800 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 969.980595 seconds.
+  path: Assets/Prefabs/logicman.prefab
+  artifactKey: Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/logicman.prefab using Guid(1e7a8eacb45c5f9439853fd29ea22d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Custom Edited - Metroid Customs - GF Trooper 1_3) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Custom Edited - Metroid Customs - GF Trooper 1_3) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '4a714fcfdad12b9263ee1badcf8326df') in 0.081641 seconds
+  Import took 0.085059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 2.021400 ms (FindLiveObjects: 0.244800 ms CreateObjectMapping: 0.135300 ms MarkObjects: 1.624700 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 1.971900 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.090400 ms MarkObjects: 1.520300 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000822 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -312,53 +297,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
+- Completed reload, in  0.709 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.4 MB.
-System memory in use after: 87.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 1.637600 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.413900 ms  DeleteObjects: 0.012100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.445625 seconds.
-  path: Assets/Prefabs/personaje.prefab
-  artifactKey: Guid(d7e731de05aebab42aeea6352e26d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/personaje.prefab using Guid(d7e731de05aebab42aeea6352e26d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177aced9b9fb5aeadf5f859d4410100c') in 0.061397 seconds
-  Import took 0.065264 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.5 MB.
 System memory in use after: 87.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2358.
-Total: 1.888600 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.055800 ms MarkObjects: 1.625700 ms  DeleteObjects: 0.013100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 1.961700 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.077400 ms MarkObjects: 1.603100 ms  DeleteObjects: 0.013000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000749 seconds.
+Registered in 0.000786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -368,25 +321,25 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
+- Completed reload, in  0.697 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.5 MB.
 System memory in use after: 87.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 1.963000 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.703900 ms  DeleteObjects: 0.014100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 2.087500 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.096000 ms MarkObjects: 1.696300 ms  DeleteObjects: 0.029200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000766 seconds.
+Registered in 0.001247 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -396,203 +349,11 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.5 MB.
 System memory in use after: 87.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 1.871000 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.481000 ms  DeleteObjects: 0.014200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.345076 seconds.
-  path: Assets/Personaje/logicman.anim
-  artifactKey: Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/logicman.anim using Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428e5a9279b533c6c1ef445171c3fc26') in 0.013885 seconds
-  Import took 0.017400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002549 seconds.
-  path: Assets/Personaje/logicman.anim
-  artifactKey: Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personaje/logicman.anim using Guid(47812aa19a9717e4b893a167b6a849c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428e5a9279b533c6c1ef445171c3fc26') in 0.002488 seconds
-  Import took 0.005195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.399856 seconds.
-  path: Assets/Prefabs/logicman.anim
-  artifactKey: Guid(f5bd488f04243734dbe019530c458d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/logicman.anim using Guid(f5bd488f04243734dbe019530c458d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9f184076019cd00f7adb8255c8abad') in 0.002630 seconds
-  Import took 0.005957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.879816 seconds.
-  path: Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller
-  artifactKey: Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller using Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e589e447ed0fa9c7144f62a5ca016249') in 0.003679 seconds
-  Import took 0.006605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller
-  artifactKey: Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Custom Edited - Metroid Customs - GF Trooper 1_1.controller using Guid(ed0edc285dbdc3544ab1dbe2c5b798f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e589e447ed0fa9c7144f62a5ca016249') in 0.003051 seconds
-  Import took 0.005682 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 1.994300 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.692100 ms  DeleteObjects: 0.012300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 1.776600 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.064700 ms MarkObjects: 1.517000 ms  DeleteObjects: 0.014300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.121716 seconds.
-  path: Assets/Scripts/MoverPersonaje.cs
-  artifactKey: Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MoverPersonaje.cs using Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f8412b16ba2c03fa9d4fdb6fa6d5ed') in 0.016711 seconds
-  Import took 0.019323 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000816 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 2.247500 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.884500 ms  DeleteObjects: 0.029100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.208017 seconds.
-  path: Assets/Scripts/moverPersonake.cs
-  artifactKey: Guid(fbcb50f321b365e4b976e1e59c058186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/moverPersonake.cs using Guid(fbcb50f321b365e4b976e1e59c058186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432dceed89f9c0dbaf818cdfeff7318a') in 0.007095 seconds
-  Import took 0.009768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.316572 seconds.
-  path: Assets/Scripts/moverAnim.cs
-  artifactKey: Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/moverAnim.cs using Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515f3be64e9940a513e32e419e5e7bd8') in 0.007486 seconds
-  Import took 0.010282 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000752 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 1.922600 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.610900 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000779 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2380.
-Total: 1.741000 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.086100 ms MarkObjects: 1.423000 ms  DeleteObjects: 0.012000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.520154 seconds.
-  path: Assets/Scripts/moverAnim.cs
-  artifactKey: Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/moverAnim.cs using Guid(e47b1fd828571f640899059ae521e6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7ae9facd4a69b3adbdc6be1f8b75ee') in 0.003647 seconds
-  Import took 0.006441 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.115400 ms (FindLiveObjects: 0.182200 ms CreateObjectMapping: 0.083600 ms MarkObjects: 1.831500 ms  DeleteObjects: 0.017300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
