@@ -1022,6 +1022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: logicman
       objectReference: {fileID: 0}
+    - target: {fileID: 2605922070926890533, guid: 1e7a8eacb45c5f9439853fd29ea22d3d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6631346576009589361, guid: 1e7a8eacb45c5f9439853fd29ea22d3d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.6728

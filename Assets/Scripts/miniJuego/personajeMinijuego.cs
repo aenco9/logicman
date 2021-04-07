@@ -10,9 +10,9 @@ public class personajeMinijuego : MonoBehaviour
     public float velocidadMovimiento = 3f; // Velocidad con la que se mueve el personaje
     public static bool enter = false;
     public GameObject fantasma;
-    Renderer rend;
-    Rigidbody2D rigidbody;
-    TrailRenderer trailRend;
+    private Renderer rend;
+    private Rigidbody2D rigidbody;
+    private TrailRenderer trailRend;
     // La combinacion de los booleanos la direccion de movimiento
     private bool a = false;
     private bool b = false;
@@ -41,6 +41,11 @@ public class personajeMinijuego : MonoBehaviour
                 trailRend.emitting = false;
                 fantasma.GetComponent<TrailRenderer>().emitting = true;
             }
+    }
+
+    public void not(){
+        valorJug = !valorJug;
+        cambiarColor();
     }
 
     void Start()
@@ -84,9 +89,5 @@ public class personajeMinijuego : MonoBehaviour
             s = false;
         }else if(Input.GetKeyDown(KeyCode.Space))
             s = !s;
-        else if(Input.GetKeyDown(KeyCode.S)){
-            valorJug = !valorJug;
-            cambiarColor();
-        }
     }
 }
