@@ -43,6 +43,10 @@ public class personajeMinijuego : MonoBehaviour
             }
     }
 
+    public bool getValorJug(){
+        return valorJug;
+    }
+
     public void not(){
         valorJug = !valorJug;
         cambiarColor();
