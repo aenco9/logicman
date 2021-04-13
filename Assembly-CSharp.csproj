@@ -56,12 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\miniJuego\personajeMinijuego.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\spawn.cs" />
     <Compile Include="Assets\CyberPunk\Scripts\Perspective2DSortMode.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\meta.cs" />
     <Compile Include="Assets\Scripts\moverPersonake.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\colors.cs" />
+    <Compile Include="Assets\Scripts\moverAnim.cs" />
     <Compile Include="Assets\Scripts\Control.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\acceso.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\pared.cs" />
+    <Compile Include="Assets\Scripts\miniJuego\not.cs" />
     <Compile Include="Assets\CyberPunk\Scripts\Done_BGScroller.cs" />
     <Compile Include="Assets\Scripts\pressSpace.cs" />
-    <Compile Include="Assets\Scripts\moverAnim.cs" />
+    <Compile Include="Assets\Scripts\moverCamara.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
