@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class spawn : MonoBehaviour
 {
+    public GameObject collider;
+
     private void OnTriggerExit2D(Collider2D other){
         if(other.gameObject.CompareTag("Player")){
-            GetComponent<BoxCollider2D>().enabled = true;
+            collider.GetComponent<BoxCollider2D>().enabled = true;
        }
     }
 }

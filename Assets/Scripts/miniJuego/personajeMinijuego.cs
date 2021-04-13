@@ -12,16 +12,21 @@ public class personajeMinijuego : MonoBehaviour
     public GameObject fantasma;
     private Renderer rend;
     private Rigidbody2D rigidbody;
-    private TrailRenderer trailRend;
+    public TrailRenderer trailRend;
     // La combinacion de los booleanos la direccion de movimiento
     private bool a = false;
     private bool b = false;
     public static bool s = true;
     private bool valorJug = true; //rojo o azul? true = rojo
-    private Color color1 = new Color(1f,1f,1.058f,1f); //rojo
-    private Color color0 = new Color(.157f,1.247f,3f,1f); //azul
+    public static Color color1 = new Color(1f,1f,1.058f,1f); //rojo
+    public static Color color0 = new Color(.157f,1.247f,3f,1f); //azul
     // constructor del color rgb donde (r,g,b,aplha)
     //                        (max 1,max 3.18, max 3, max 1)
+
+    public void detenerJug(){
+        rigidbody.velocity = new Vector2(0,0);
+        s = true;
+    }
 
     void stop(){
         Time.timeScale = 0;
@@ -72,8 +77,7 @@ public class personajeMinijuego : MonoBehaviour
                 rigidbody.velocity = new Vector2(0,velocidadMovimiento);
             else // 11
                 rigidbody.velocity = new Vector2(0,-velocidadMovimiento);
-        }else
-            stop();
+        }
         
         if(Input.GetKeyDown("right")){
             a = false;
@@ -91,7 +95,9 @@ public class personajeMinijuego : MonoBehaviour
             a = true;
             b = true;
             s = false;
-        }else if(Input.GetKeyDown(KeyCode.Space))
+        }else if(Input.GetKeyDown(KeyCode.Space)){
             s = !s;
+            stop();
+        }
     }
 }
