@@ -22,12 +22,12 @@ public class moverPersonake : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         enPiso = true; //Cuando se acciona el collider de trigger, queda en true
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         enPiso = false; //Al saltar se desactiva
     }
@@ -72,5 +72,6 @@ public class moverPersonake : MonoBehaviour
         {
             anim.SetBool(name: "saltando", false);
         }
+       // Debug.Log(enPiso);
     }
 }

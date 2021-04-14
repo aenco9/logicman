@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 79432873079323680}
   - component: {fileID: 8614563411031154129}
   - component: {fileID: 7754761683647028514}
+  - component: {fileID: 4062918036547922204}
   m_Layer: 0
   m_Name: Custom Edited - Metroid Customs - GF Trooper 1_3
   m_TagString: Untagged
@@ -60,7 +61,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847907959480644498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.443, y: 0.849, z: 0}
+  m_LocalPosition: {x: -3.442, y: 0.848, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8785729769574851034}
@@ -198,3 +199,19 @@ MonoBehaviour:
   maxVelocidadX: 10
   maxVelocidadY: 10
   enPiso: 1
+--- !u!58 &4062918036547922204
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847907959480644498}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.14543642}
+  serializedVersion: 2
+  m_Radius: 0.050436422
