@@ -654,9 +654,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1952154671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80d331c6232f4e34b90787e0747a2668, type: 3}
+  m_Script: {fileID: 11500000, guid: f8a4bdef215d1514596b3fb576921ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UIMenuPausa: {fileID: 0}
 --- !u!1001 &8831513510538493106
 PrefabInstance:
   m_ObjectHideFlags: 0

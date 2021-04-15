@@ -36,6 +36,6 @@ public class disparo : MonoBehaviour
 
         
         Instantiate(bulletPrefab, firePoint.position+offsetcollider , firePoint.rotation);
-        Debug.Log(firePoint.rotation.y);
+        //Debug.Log(firePoint.rotation.y);
     }
 }
