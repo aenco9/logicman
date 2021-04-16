@@ -10,6 +10,7 @@ public class moverPersonake : MonoBehaviour
     private SpriteRenderer sprRenderer;
     public bool enPiso = true; //Variable booleana que dice si el collider está siendo presionado por el piso
     private Rigidbody2D rigidbody;
+    
 
     // METODOS
     // Start is called before the first frame update
@@ -39,7 +40,6 @@ public class moverPersonake : MonoBehaviour
         float movHorizontal = Input.GetAxis("Horizontal"); //Controles del personaje con el teclado
         rigidbody.velocity = new Vector2(movHorizontal * maxVelocidadX, rigidbody.velocity.y);
         float movVertical = Input.GetAxis("Jump");      // [0, 1]
-        
         if (movVertical > 0 && enPiso) //Si se ha precionado espacio y el jugador está en el piso, puede brincar
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, movVertical * maxVelocidadY);
@@ -48,24 +48,12 @@ public class moverPersonake : MonoBehaviour
 
         if (rigidbody.velocity.x > 0) //Cambiar la dirección del sprite dependiendo de la velocidad
         {
-            if (transform.rotation.eulerAngles.y >= 0)
-            {
-                transform.Rotate(0f, -180f, 0f);
-            }
-
-            
-
+            sprRenderer.flipX = false;
         }
         else if (rigidbody.velocity.x < 0)
         {
-            if (transform.rotation.eulerAngles.y < 0)
-            {
-                transform.Rotate(0f, 180f, 0f);
-            }
-
-
+            sprRenderer.flipX = true;
         }
-
         if (Mathf.Abs(rigidbody.velocity.x) > 0) //Fijar la variable moviendo para las condiciones de transición de las animaciones
         {
             anim.SetBool(name: "corriendo", true);
@@ -84,6 +72,6 @@ public class moverPersonake : MonoBehaviour
         {
             anim.SetBool(name: "saltando", false);
         }
-       //Debug.Log(transform.rotation.eulerAngles.y);
+       // Debug.Log(enPiso);
     }
 }
