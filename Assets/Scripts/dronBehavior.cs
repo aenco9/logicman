@@ -25,15 +25,28 @@ public class dronBehavior : MonoBehaviour
         if (collision.collider.name == "disparo(Clone)")
         {
             salud -= 20;
-            //Debug.Log(salud);
+            StartCoroutine(Flasher());
+            //Debug.Log(rend.material.color);
         }
 
 
     }
 
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Flasher()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            rend.material.color = Color.black;
+            yield return new WaitForSeconds(.05f);
+            rend.material.color = Color.white;
+            yield return new WaitForSeconds(.05f);
+        }
+    }
+
+
+        // Update is called once per frame
+        void Update()
     {
         if (salud <= 0)
         {

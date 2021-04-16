@@ -42,6 +42,7 @@ public class moverPersonake : MonoBehaviour
         if (collision.collider.name == "drone-1")
         {
             salud -= 20;
+            StartCoroutine(Flasher());
         }
     }
 
@@ -59,7 +60,16 @@ public class moverPersonake : MonoBehaviour
         }
     }
 
-
+    IEnumerator Flasher()
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            rend.material.color = Color.black;
+            yield return new WaitForSeconds(.05f);
+            rend.material.color = Color.white;
+            yield return new WaitForSeconds(.05f);
+        }
+    }
 
 
 
