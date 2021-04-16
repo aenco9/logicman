@@ -8,7 +8,11 @@ public class entrarNivel : MonoBehaviour
     public bool entrando = false;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        entrando = true;
+        if (collision.collider.name == "logicmanSprite")
+        {
+            entrando = true;
+        }
+            
 
     }
 
