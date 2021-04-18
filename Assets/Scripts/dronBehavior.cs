@@ -8,12 +8,14 @@ public class dronBehavior : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip clip;
     public float volume = 0.5f;
+    public Collider2D caja;
     public Renderer rend;
 
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<Renderer>();
+        caja= GetComponent<BoxCollider2D>();
         rend.enabled = true;
         salud = 100;
     }
@@ -53,6 +55,7 @@ public class dronBehavior : MonoBehaviour
             //
             audioSource.PlayOneShot(clip, volume);
             rend.enabled = false;
+            caja.enabled = false;
             Destroy(gameObject,clip.length);
             //y suena BOOM
 
