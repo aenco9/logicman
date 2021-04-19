@@ -80,12 +80,14 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\dronBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\disparoTorreta.cs" />
     <Compile Include="Assets\Scripts\moverAnim.cs" />
     <Compile Include="Assets\Scripts\disparo.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\torretaBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Control.cs" />
@@ -110,8 +112,15 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\torretaBehavior.cs" />
-    <Compile Include="Assets\Scripts\disparoTorreta.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\HurtPlayer.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\MineController.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\PressEnter.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\ParallaxBackground.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Underwater Diving\Scripts\TitleScreen.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
