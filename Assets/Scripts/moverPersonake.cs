@@ -39,7 +39,7 @@ public class moverPersonake : MonoBehaviour
         {
             enPiso = false;
         }
-        if (collision.collider.name == "drone-1")
+        if (collision.collider.name == "drone-1" || collision.collider.name == "disparoVerde(Clone)")
         {
             salud -= 20;
             StartCoroutine(Flasher());

@@ -197,6 +197,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   salud: 0
+  audioSource: {fileID: 4807929392087826234}
+  clip: {fileID: 8300000, guid: afe8593c262c4394e8410d1853dcb2e8, type: 3}
+  volume: 0.5
+  caja: {fileID: 0}
+  rend: {fileID: 0}
 --- !u!82 &4807929392087826234
 AudioSource:
   m_ObjectHideFlags: 0
