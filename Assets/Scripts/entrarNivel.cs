@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class entrarNivel : MonoBehaviour
 {
     public bool entrando = false;
-    
+    public string nombreScrene;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -31,7 +31,7 @@ public class entrarNivel : MonoBehaviour
     {
         if (entrando)
         {
-            SceneManager.LoadScene(sceneName: "miniGame");
+            SceneManager.LoadScene(sceneName: nombreScrene);
         }
     }
 }
