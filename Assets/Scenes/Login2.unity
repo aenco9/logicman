@@ -285,8 +285,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 126695462}
   m_TextComponent: {fileID: 87241386}
   m_Placeholder: {fileID: 2090768797}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -1273,8 +1273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b327bbdeeba90854d9cdd9a6b76ec46d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textoNombre: {fileID: 176753469}
-  textoContra: {fileID: 87241386}
+  textoNombre: {fileID: 408611313}
+  textoContra: {fileID: 126695461}
 --- !u!82 &1565942371
 AudioSource:
   m_ObjectHideFlags: 0

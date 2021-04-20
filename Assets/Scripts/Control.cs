@@ -8,8 +8,8 @@ using UnityEngine.UI;
 
 public class Control : MonoBehaviour
 {
-    public Text textoNombre;
-    public Text textoContra;
+    public InputField textoNombre;
+    public InputField textoContra;
     public void cambiar(string scenename)
     {
         SceneManager.LoadScene(scenename);
@@ -28,6 +28,10 @@ public class Control : MonoBehaviour
 
         forma.AddField("nombre", value: textoNombre.text);
         forma.AddField("contra", value: textoContra.text);
+
+        //Debug.Log(textoContra.text);
+        //Debug.Log(textoNombre.text);
+
 
 
         //UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/postVer", forma);
