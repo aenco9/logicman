@@ -9,10 +9,11 @@ public class personajeMinijuego : MonoBehaviour
 {
     public float velocidadMovimiento = 3f; // Velocidad con la que se mueve el personaje
     public static bool enter = false;
-    public GameObject fantasma;
     private Renderer rend;
     private Rigidbody2D rigidbody;
-    public TrailRenderer trailRend;
+    public TrailRenderer trail0;
+    public TrailRenderer trail1;
+
     // La combinacion de los booleanos la direccion de movimiento
     private bool a = false;
     private bool b = false;
@@ -38,13 +39,13 @@ public class personajeMinijuego : MonoBehaviour
 
     void cambiarColor(){
         if(valorJug){
-                rend.material.color = color1;
-                trailRend.emitting = true;
-                fantasma.GetComponent<TrailRenderer>().emitting = false;
+               // rend.material.color = color1;
+                trail1.emitting = true;
+                trail0.emitting = false;
             }else{
-                rend.material.color = color0;
-                trailRend.emitting = false;
-                fantasma.GetComponent<TrailRenderer>().emitting = true;
+               // rend.material.color = color0;
+                trail1.emitting = false;
+                trail0.emitting = true;
             }
     }
 
@@ -61,57 +62,64 @@ public class personajeMinijuego : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         rend = GetComponent<Renderer> ();
-        trailRend = GetComponent<TrailRenderer>();
-        fantasma.GetComponent<TrailRenderer>().time = trailRend.time;
+        trail0 = transform.GetChild(0).GetComponent<TrailRenderer>();
+        trail1 = transform.GetChild(1).GetComponent<TrailRenderer>();
     }
 
     // El personaje siempre avanza a una direccion, el usuario establece cual. Se empieza hacia la derecha. Se para con espacio
     void Update()
     {
-        if (!MenuPausa.estaPausado)
-        {
-            if (!s)
-            {
-                play();
-                if (!a && !b) // 00
-                    rigidbody.velocity = new Vector2(velocidadMovimiento, 0);
-                else if (!a && b) // 01
-                    rigidbody.velocity = new Vector2(-velocidadMovimiento, 0);
-                else if (a && !b) // 10
-                    rigidbody.velocity = new Vector2(0, velocidadMovimiento);
-                else // 11
-                    rigidbody.velocity = new Vector2(0, -velocidadMovimiento);
-            }
-
-            if (Input.GetKeyDown("right"))
-            {
-                a = false;
-                b = false;
-                s = false;
-            }
-            else if (Input.GetKeyDown("left"))
-            {
-                a = false;
-                b = true;
-                s = false;
-            }
-            else if (Input.GetKeyDown("up"))
-            {
-                a = true;
-                b = false;
-                s = false;
-            }
-            else if (Input.GetKeyDown("down"))
-            {
-                a = true;
-                b = true;
-                s = false;
-            }
-            else if (Input.GetKeyDown(KeyCode.Space))
-            {
-                s = !s;
-                stop();
-            }
+        if(!s){
+            play();
+            if(!a && !b) // 00
+                rigidbody.velocity = new Vector2(velocidadMovimiento,0);
+            else if(!a && b) // 01
+                rigidbody.velocity = new Vector2(-velocidadMovimiento,0);
+            else if(a && !b) // 10
+                rigidbody.velocity = new Vector2(0,velocidadMovimiento);
+            else // 11
+                rigidbody.velocity = new Vector2(0,-velocidadMovimiento);
+        }
+        
+        if(Input.GetKeyDown("right")){
+            a = false;
+            b = false;
+            s = false;
+            transform.localScale = new Vector3(-1.5f,1.5f,1);
+        }else if(Input.GetKeyDown("left")){
+            a = false;
+            b = true;
+            s = false;
+            transform.localScale = new Vector3(1.5f,1.5f,1);
+        }else if(Input.GetKeyDown("up")){
+            a = true;
+            b = false;
+            s = false;
+        }else if(Input.GetKeyDown("down")){
+            a = true;
+            b = true;
+            s = false;
+        }else if(Input.GetKeyDown(KeyCode.D)){
+            a = false;
+            b = false;
+            s = false;
+            transform.localScale = new Vector3(-1.5f,1.5f,1);
+        }else if(Input.GetKeyDown(KeyCode.A)){
+            a = false;
+            b = true;
+            s = false;
+            transform.localScale = new Vector3(1.5f,1.5f,1);
+        }else if(Input.GetKeyDown(KeyCode.W)){
+            a = true;
+            b = false;
+            s = false;
+        }else if(Input.GetKeyDown(KeyCode.S)){
+            a = true;
+            b = true;
+            s = false;
+        }else if(Input.GetKeyDown(KeyCode.Space)){
+            s = !s;
+            stop();
         }
     }
 }

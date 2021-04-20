@@ -12,9 +12,9 @@ public class meta : MonoBehaviour
         jugador.transform.position = nextLevel.transform.GetChild(3).transform.position + new Vector3(.4f,0f,0f); // desplazar jugador
 
         if(jugador.getValorJug()) // El jugador tiene el trail 1
-            jugador.trailRend.Clear(); // Apagar trail
+            jugador.trail1.Clear(); // Apagar trail
         else // El jugador tiene el trail 0
-            jugador.fantasma.GetComponent<TrailRenderer>().Clear(); // Apagar trail
+            jugador.trail0.Clear(); // Apagar trail
 
         Camera.main.transform.position = nextLevel.transform.position; // desplazar camara       
     }
