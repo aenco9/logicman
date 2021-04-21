@@ -35,7 +35,7 @@ public class Control : MonoBehaviour
 
 
         //UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/postVer", forma);
-        UnityWebRequest request = UnityWebRequest.Post("http://logicman.educationhost.cloud/postVer", forma);
+        UnityWebRequest request = UnityWebRequest.Post("https://logicman.educationhost.cloud/postVer", forma);
         yield return request.SendWebRequest();
         if (request.result == UnityWebRequest.Result.Success)
         {
