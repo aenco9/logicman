@@ -5,8 +5,8 @@ using UnityEngine;
 public class moverCamara : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float xSize = 15.4f;
-    public float ySize = 6.6f;
+    public float xSize;
+    public float ySize;
 
     public GameObject spriteLogicman;
     void Start()
