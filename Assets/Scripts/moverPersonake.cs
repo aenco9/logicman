@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class moverPersonake : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class moverPersonake : MonoBehaviour
     public AudioClip clip;
     public float volume = 0.5f;
     public Renderer rend;
-
+    private BoxCollider2D caja;
+    private Scene scene;
 
     // METODOS
     // Start is called before the first frame update
@@ -27,6 +29,8 @@ public class moverPersonake : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         salud = 100;
+        caja = GetComponent<BoxCollider2D>();
+        scene = SceneManager.GetActiveScene();
     }
 
 
@@ -79,7 +83,12 @@ public class moverPersonake : MonoBehaviour
         enPiso = false; //Al saltar se desactiva
     }
 
+    private IEnumerator WaitForSceneLoad()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(scene.name);
 
+    }
 
     // Update is called once per frame
     void Update()
@@ -137,8 +146,13 @@ public class moverPersonake : MonoBehaviour
         if (salud <= 0)
         {
             //
+            anim.SetBool(name: "explotando", true);
             audioSource.PlayOneShot(clip, volume);
+            //Destroy(gameObject, clip.length);
             rend.enabled = false;
+            caja.enabled = false;
+            StartCoroutine(WaitForSceneLoad());
+
             //y suena BOOM
 
         }
