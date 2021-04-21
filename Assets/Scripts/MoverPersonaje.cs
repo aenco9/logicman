@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class moverPersonake : MonoBehaviour
+/*
+ * Script que controla la salud, movimiento
+ * y animaciones del sprite principal
+ * Autor: Alejandro Enriquez Coronado
+ */
+
+public class MoverPersonaje : MonoBehaviour
 {
     public float maxVelocidadX = 10;
     public float maxVelocidadY = 10;
@@ -23,6 +29,7 @@ public class moverPersonake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Determina los objetos iniciales y la salud
         rigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprRenderer = GetComponent<SpriteRenderer>();
@@ -36,6 +43,7 @@ public class moverPersonake : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Si la colision es en la parte de abajo, lo permite saltar
         Vector2 direction = collision.GetContact(0).normal;
         if(direction.y == 1){
             enPiso = true; //Cuando se acciona el collider de trigger, queda en true
@@ -43,6 +51,7 @@ public class moverPersonake : MonoBehaviour
         {
             enPiso = false;
         }
+        //Si la colision es por una bala de la torreta o dron, disminuye la salud
         if (collision.collider.name == "drone-1" || collision.collider.name == "disparoVerde(Clone)")
         {
             salud -= 20;
@@ -53,6 +62,7 @@ public class moverPersonake : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
+        //Se utiliza por si no se detecto a la perfeccion la colision con el lado de abajo
         Vector2 direction = collision.GetContact(0).normal;
         if (direction.y == 1)
         {
@@ -66,6 +76,7 @@ public class moverPersonake : MonoBehaviour
 
     IEnumerator Flasher()
     {
+        //Cada que recibe daño, cambia el color dos veces
         for (int i = 0; i < 2; i++)
         {
             rend.material.color = Color.black;
@@ -79,15 +90,14 @@ public class moverPersonake : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-
         enPiso = false; //Al saltar se desactiva
     }
 
     private IEnumerator WaitForSceneLoad()
     {
+        //Espera 3 segundos y reinicia la escena
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene(scene.name);
-
     }
 
     // Update is called once per frame
@@ -109,9 +119,6 @@ public class moverPersonake : MonoBehaviour
             {
                 transform.Rotate(0f, -180f, 0f);
             }
-
-
-
         }
         else if (rigidbody.velocity.x < 0)
         {
@@ -119,14 +126,11 @@ public class moverPersonake : MonoBehaviour
             {
                 transform.Rotate(0f, 180f, 0f);
             }
-
-
         }
 
         if (Mathf.Abs(rigidbody.velocity.x) > 0) //Fijar la variable moviendo para las condiciones de transición de las animaciones
         {
             anim.SetBool(name: "corriendo", true);
-
         }
         else
         {
@@ -135,26 +139,20 @@ public class moverPersonake : MonoBehaviour
         if (Mathf.Abs(rigidbody.velocity.y) > 0.5) //Si la velocidad en Y es mayor a 0.5, cambia a brincando. En 0 ocurrían saltos con muy poca altura.
         {
             anim.SetBool(name: "saltando", true);
-
         }
         else
         {
             anim.SetBool(name: "saltando", false);
         }
-        //Debug.Log(transform.rotation.eulerAngles.y);
 
         if (salud <= 0)
         {
-            //
+            //Si se acaba la salud, explota y vuelve a cargar la escena
             anim.SetBool(name: "explotando", true);
             audioSource.PlayOneShot(clip, volume);
-            //Destroy(gameObject, clip.length);
             rend.enabled = false;
             caja.enabled = false;
             StartCoroutine(WaitForSceneLoad());
-
-            //y suena BOOM
-
         }
     }
 }

@@ -29,12 +29,6 @@ public class Control : MonoBehaviour
         forma.AddField("nombre", value: textoNombre.text);
         forma.AddField("contra", value: textoContra.text);
 
-        //Debug.Log(textoContra.text);
-        //Debug.Log(textoNombre.text);
-
-
-
-        //UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/postVer", forma);
         UnityWebRequest request = UnityWebRequest.Post("https://logicman.educationhost.cloud/postVer", forma);
         yield return request.SendWebRequest();
         if (request.result == UnityWebRequest.Result.Success)

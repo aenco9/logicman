@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dronBehavior : MonoBehaviour
+/*
+ * Controla los movimientos del dron, sus animaciones 
+ * y salud
+ * Autor: Alejandro Enriquez Coronado
+ */
+
+public class DronBehavior : MonoBehaviour
 {
     public float salud;
     public AudioSource audioSource;
@@ -15,30 +21,29 @@ public class dronBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Establece los parametros iniciales y la salud completa
         rend = GetComponent<Renderer>();
         caja= GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
-        rend.enabled = true;
         salud = 100;
     }
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Debug.Log(collision.collider.name);
+        //Cada que choca con un disparo de logicman, se reduce la salud por 20
         if (collision.collider.name == "disparo(Clone)")
         {
             salud -= 20;
+            //Tambien se ejecuta la animacion para saber que le diste
             StartCoroutine(Flasher());
-            //Debug.Log(rend.material.color);
         }
-
-
     }
 
 
     IEnumerator Flasher()
     {
+        //Hace al sprite cambiar de color rapidamente dos veces
         for (int i = 0; i < 2; i++)
         {
             rend.material.color = Color.black;
@@ -52,16 +57,13 @@ public class dronBehavior : MonoBehaviour
         // Update is called once per frame
         void Update()
     {
+        //Cuando se le acaba la salud, suena boom y desaparece el objeto
         if (salud <= 0)
         {
-            
             audioSource.PlayOneShot(clip, volume);
             anim.SetBool("explotando", true);
-            //rend.enabled = false;
             caja.enabled = false;
             Destroy(gameObject,clip.length);
-            //y suena BOOM
-
         }
     }
 

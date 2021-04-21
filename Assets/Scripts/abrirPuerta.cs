@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class abrirPuerta : MonoBehaviour
+/*
+ * Deshabilita el sprite de la puerta y su box
+ * collider cuando ya no hay enemigos
+ * Autor: Alejandro Enriquez Coronado
+ */
+
+public class AbrirPuerta : MonoBehaviour
 {
 
     private int enemigos;
@@ -10,7 +16,8 @@ public class abrirPuerta : MonoBehaviour
     private BoxCollider2D caja;
     // Start is called before the first frame update
     void Start()
-    {
+    { 
+        // Determina los GameObjects utilizados
         rend = GetComponent<Renderer>();
         caja = GetComponent<BoxCollider2D>();
     }
@@ -18,12 +25,12 @@ public class abrirPuerta : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Determina el numero de objetos en la escena con el tag enemigo
         enemigos = GameObject.FindGameObjectsWithTag("enemigo").Length;
         if (enemigos == 0)
         {
             rend.enabled = false;
             caja.enabled = false;
         }
-        Debug.Log(enemigos);
     }
 }

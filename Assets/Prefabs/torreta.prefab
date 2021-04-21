@@ -183,7 +183,7 @@ MonoBehaviour:
   torreta2: {fileID: 0}
   audioSource: {fileID: 0}
   clip: {fileID: 8300000, guid: afe8593c262c4394e8410d1853dcb2e8, type: 3}
-  volume: 0.5
+  volume: 0.2
   caja: {fileID: 0}
   rend: {fileID: 0}
 --- !u!114 &5768339278509662422

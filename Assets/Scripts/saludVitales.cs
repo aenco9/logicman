@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class saludVitales : MonoBehaviour
+/*
+ * Script utilizado para mostrar la salud de personaje en un canvas
+ * Autor: Alejandro Enriquez Coronado
+ */
+
+public class SaludVitales : MonoBehaviour
 {
 
     public string salud;
@@ -14,15 +19,16 @@ public class saludVitales : MonoBehaviour
 
     void Start()
     {
+        //Encuentra algun objeto de transform llamado Salud
         child = transform.Find("Salud");
         t = child.GetComponent<Text>();
-        //Debug.Log(logicman.GetComponent<moverPersonake>().salud);
     }
 
     // Update is called once per frame
     void Update()
     {
-        t.text = logicman.GetComponent<moverPersonake>().salud.ToString();
+        //Lo convierte a string y dependiendo de su valor, cambia el color del texto
+        t.text = logicman.GetComponent<MoverPersonaje>().salud.ToString();
         if (float.Parse(t.text) >= 80) {
             t.color = Color.green;
         }
