@@ -2572,7 +2572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3fed3b502ef24840a53b789eff55f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMovimiento: 4
+  velocidadMovimiento: 3
   valorJug: 1
 --- !u!50 &932679209
 Rigidbody2D:
@@ -2977,7 +2977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e82d628adaf8bc42a05d19f6981f217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider: {fileID: 1578477388}
 --- !u!61 &1032467718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5215,7 +5214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collider1: 0
-  collider2: 1
+  collider2: 0
 --- !u!1 &1749138478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6073,6 +6072,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af51d301ba7b09346b2547892218c8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xSize: 0
+  ySize: 0
+  spriteLogicman: {fileID: 932679207}
 --- !u!1 &1980128692
 GameObject:
   m_ObjectHideFlags: 0
