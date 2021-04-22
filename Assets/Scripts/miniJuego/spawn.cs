@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spawn : MonoBehaviour
+public class Spawn : MonoBehaviour
 {
     public GameObject collider;
 

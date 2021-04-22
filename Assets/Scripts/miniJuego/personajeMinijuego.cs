@@ -2,51 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Autores: Ruben, 
-// Codigo para controlar el movimiento del personaje principal del minijuego
+// Autores: Ruben Sanchez Mayen, Octavio Andrick Sanchez Perusquia
+// Descripcion: Controlador del Jugador en el minijuego. 
 
-public class personajeMinijuego : MonoBehaviour
+public class PersonajeMinijuego : MonoBehaviour
 {
-    public float velocidadMovimiento = 3f; // Velocidad con la que se mueve el personaje
-    //public static bool enter = false;
+    public float velocidadMovimiento = 3f; //Velocidad con la que se mueve el personaje
     private Rigidbody2D rigidbody;
+    private int direccion = 0; //Direccion del jugador
+    public bool valorJug = true; //Que nave tiene el jugador? Son 2
 
-    // La combinacion de los booleanos la direccion de movimiento
-    private bool a = false;
-    private bool b = false;
-    public static bool s = true; // pausa
-    private bool valorJug = true; //rojo o azul? true = rojo
-
-    public void detenerJug(){
-        rigidbody.velocity = new Vector2(0,0);
-        s = true;
+    //Retardar la aparición del propulsor
+    IEnumerator PrenderPropulsor(){
+        yield return new WaitForSeconds(.1f);
+        transform.GetChild(2).GetComponent<SpriteRenderer>().enabled = true;
     }
 
-    void stop(){
-        Time.timeScale = 0;
-    }
-
-    void play(){ 
-        Time.timeScale = 1;
-    }
-
-    public bool getValorJug(){
-        return valorJug;
-    }
-
-    void cambiarNave(){
-        if(valorJug){
+    //Actualizar a la nave correcta
+    void CambiarNave(){
+        if(valorJug){ //Nave 1
             transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
             transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
-        }else{
+            StartCoroutine(PrenderPropulsor()); //Prender con retardo el propulsor
+        }else{ //Nave 2
             transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
             transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
+            transform.GetChild(2).GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
-    public void not(){
+    //Controlador de compuerta not
+    public void Not(){ 
         valorJug = !valorJug;
-        cambiarNave();
+        CambiarNave();
     }
 
     void Start()
@@ -54,81 +42,53 @@ public class personajeMinijuego : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // El personaje siempre avanza a una direccion, el usuario establece cual. Se empieza hacia la derecha. Se para con espacio
+    // La nave siempre avanza a una direccion, el usuario establece cual.
     void Update()
     {
+        //Pausa
         if (!MenuPausa.estaPausado)
         {
-            if (!s)
-            {
-                play();
-                if (!a && !b) // 00
-                    rigidbody.velocity = new Vector2(velocidadMovimiento, 0);
-                else if (!a && b) // 01
-                    rigidbody.velocity = new Vector2(-velocidadMovimiento, 0);
-                else if (a && !b) // 10
-                    rigidbody.velocity = new Vector2(0, velocidadMovimiento);
-                else // 11
-                    rigidbody.velocity = new Vector2(0, -velocidadMovimiento);
-            }
+            if (direccion == 1) //Derecha
+                rigidbody.velocity = new Vector2(velocidadMovimiento, 0);
+            else if(direccion == 2) //Izquierda
+                rigidbody.velocity = new Vector2(-velocidadMovimiento, 0);
+            else if (direccion == 3) //Arriba
+                rigidbody.velocity = new Vector2(0, velocidadMovimiento);
+            else if (direccion == 4) //Abajo
+                rigidbody.velocity = new Vector2(0, -velocidadMovimiento);
+            else //Sin movimiento
+                rigidbody.velocity = new Vector2(0, 0);
 
+            //Input WASD
             if (Input.GetKeyDown("right"))
             {
-                a = false;
-                b = false;
-                s = false;
-                transform.localScale = new Vector3(1, 1, 1);
+                direccion = 1; //Cambiar direccion de la nave
+                transform.localScale = new Vector3(1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown("left"))
             {
-                a = false;
-                b = true;
-                s = false;
-                transform.localScale = new Vector3(-1, 1, 1);
+                direccion = 2; //Cambiar direccion de la nave
+                transform.localScale = new Vector3(-1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown("up"))
-            {
-                a = true;
-                b = false;
-                s = false;
-            }
+                direccion = 3; //Cambiar direccion de la nave
             else if (Input.GetKeyDown("down"))
-            {
-                a = true;
-                b = true;
-                s = false;
-            }
+                direccion = 4; //Cambiar direccion de la nave
+            //Input FLECHAS
             else if (Input.GetKeyDown(KeyCode.D))
             {
-                a = false;
-                b = false;
-                s = false;
-                transform.localScale = new Vector3(1, 1, 1);
+                direccion = 1; //Cambiar direccion de la nave
+                transform.localScale = new Vector3(1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown(KeyCode.A))
             {
-                a = false;
-                b = true;
-                s = false;
-                transform.localScale = new Vector3(-1, 1, 1);
+                direccion = 2; //Cambiar direccion de la nave
+                transform.localScale = new Vector3(-1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown(KeyCode.W))
-            {
-                a = true;
-                b = false;
-                s = false;
-            }
+                direccion = 3; //Cambiar direccion de la nave
             else if (Input.GetKeyDown(KeyCode.S))
-            {
-                a = true;
-                b = true;
-                s = false;
-            }
-            else if (Input.GetKeyDown(KeyCode.Space))
-            {
-                s = !s;
-                stop();
-            }
+                direccion = 4; //Cambiar direccion de la nave
         }
     }
 }

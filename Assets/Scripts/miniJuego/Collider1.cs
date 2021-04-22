@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Autor: Ruben Sanchez Mayen
+//Descripcion: Collider de la puerta not que detecta al jugador, cambia su nave y da la señal a al script Not
+//para organizar los colliders
+
 public class Collider1 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.CompareTag("Player")){
-            other.gameObject.GetComponent<personajeMinijuego>().not();
+            //Cambiar Nave del jugador
+            other.gameObject.GetComponent<PersonajeMinijuego>().Not();
+            //Apagar este collider y prender el collider2
+            transform.parent.gameObject.GetComponent<Not>().ActualizarColliders(false,true);
         }
     }
 }
