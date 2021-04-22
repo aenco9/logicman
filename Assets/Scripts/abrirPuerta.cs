@@ -20,6 +20,7 @@ public class AbrirPuerta : MonoBehaviour
         // Determina los GameObjects utilizados
         rend = GetComponent<Renderer>();
         caja = GetComponent<BoxCollider2D>();
+
     }
 
     // Update is called once per frame
