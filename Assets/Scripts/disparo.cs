@@ -22,10 +22,13 @@ public class Disparo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Se ejecuta el método dispara cada que se presiona
-        if (Input.GetButtonDown("Fire1"))
+        if (!MenuPausa.estaPausado)
         {
-            Dispara();
+            //Se ejecuta el método dispara cada que se presiona
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Dispara();
+            }
         }
     }
 

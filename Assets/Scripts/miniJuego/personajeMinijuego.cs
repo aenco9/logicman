@@ -57,57 +57,78 @@ public class personajeMinijuego : MonoBehaviour
     // El personaje siempre avanza a una direccion, el usuario establece cual. Se empieza hacia la derecha. Se para con espacio
     void Update()
     {
-        if(!s){
-            play();
-            if(!a && !b) // 00
-                rigidbody.velocity = new Vector2(velocidadMovimiento,0);
-            else if(!a && b) // 01
-                rigidbody.velocity = new Vector2(-velocidadMovimiento,0);
-            else if(a && !b) // 10
-                rigidbody.velocity = new Vector2(0,velocidadMovimiento);
-            else // 11
-                rigidbody.velocity = new Vector2(0,-velocidadMovimiento);
-        }
-        
-        if(Input.GetKeyDown("right")){
-            a = false;
-            b = false;
-            s = false;
-            transform.localScale = new Vector3(1,1,1);
-        }else if(Input.GetKeyDown("left")){
-            a = false;
-            b = true;
-            s = false;
-            transform.localScale = new Vector3(-1,1,1);
-        }else if(Input.GetKeyDown("up")){
-            a = true;
-            b = false;
-            s = false;
-        }else if(Input.GetKeyDown("down")){
-            a = true;
-            b = true;
-            s = false;
-        }else if(Input.GetKeyDown(KeyCode.D)){
-            a = false;
-            b = false;
-            s = false;
-            transform.localScale = new Vector3(1,1,1);
-        }else if(Input.GetKeyDown(KeyCode.A)){
-            a = false;
-            b = true;
-            s = false;
-            transform.localScale = new Vector3(-1,1,1);
-        }else if(Input.GetKeyDown(KeyCode.W)){
-            a = true;
-            b = false;
-            s = false;
-        }else if(Input.GetKeyDown(KeyCode.S)){
-            a = true;
-            b = true;
-            s = false;
-        }else if(Input.GetKeyDown(KeyCode.Space)){
-            s = !s;
-            stop();
+        if (!MenuPausa.estaPausado)
+        {
+            if (!s)
+            {
+                play();
+                if (!a && !b) // 00
+                    rigidbody.velocity = new Vector2(velocidadMovimiento, 0);
+                else if (!a && b) // 01
+                    rigidbody.velocity = new Vector2(-velocidadMovimiento, 0);
+                else if (a && !b) // 10
+                    rigidbody.velocity = new Vector2(0, velocidadMovimiento);
+                else // 11
+                    rigidbody.velocity = new Vector2(0, -velocidadMovimiento);
+            }
+
+            if (Input.GetKeyDown("right"))
+            {
+                a = false;
+                b = false;
+                s = false;
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (Input.GetKeyDown("left"))
+            {
+                a = false;
+                b = true;
+                s = false;
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else if (Input.GetKeyDown("up"))
+            {
+                a = true;
+                b = false;
+                s = false;
+            }
+            else if (Input.GetKeyDown("down"))
+            {
+                a = true;
+                b = true;
+                s = false;
+            }
+            else if (Input.GetKeyDown(KeyCode.D))
+            {
+                a = false;
+                b = false;
+                s = false;
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else if (Input.GetKeyDown(KeyCode.A))
+            {
+                a = false;
+                b = true;
+                s = false;
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else if (Input.GetKeyDown(KeyCode.W))
+            {
+                a = true;
+                b = false;
+                s = false;
+            }
+            else if (Input.GetKeyDown(KeyCode.S))
+            {
+                a = true;
+                b = true;
+                s = false;
+            }
+            else if (Input.GetKeyDown(KeyCode.Space))
+            {
+                s = !s;
+                stop();
+            }
         }
     }
 }
