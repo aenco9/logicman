@@ -3550,8 +3550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af51d301ba7b09346b2547892218c8cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 0
-  ySize: 0
+  xSize: 15
+  ySize: 6
   spriteLogicman: {fileID: 1052770276}
 --- !u!82 &1861638644
 AudioSource:
