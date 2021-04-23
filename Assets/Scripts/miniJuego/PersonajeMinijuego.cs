@@ -7,10 +7,11 @@ using UnityEngine;
 
 public class PersonajeMinijuego : MonoBehaviour
 {
-    public float velocidadMovimiento = 3f; //Velocidad con la que se mueve el personaje
+    public float velocidadMovimiento= 3f; //Velocidad por defecto
     private Rigidbody2D rigidbody;
     private int direccion = 0; //Direccion del jugador
     public bool valorJug = true; //Que nave tiene el jugador? Son 2
+    public bool bloquearInput = false;
 
     //Retardar la aparición del propulsor
     IEnumerator PrenderPropulsor(){
@@ -31,10 +32,20 @@ public class PersonajeMinijuego : MonoBehaviour
         }
     }
 
-    //Controlador de compuerta not
+    //Controlador de not
     public void Not(){ 
         valorJug = !valorJug;
         CambiarNave();
+    }
+
+    //Controlador de and
+    public void And(bool resultado, float yPos){
+        bloquearInput = true;
+        //Cambiar nave
+        valorJug = resultado;
+        CambiarNave();
+        //Mover nave
+        transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
     }
 
     void Start()
@@ -46,7 +57,7 @@ public class PersonajeMinijuego : MonoBehaviour
     void Update()
     {
         //Pausa
-        if (!MenuPausa.estaPausado)
+        if (!MenuPausa.estaPausado && !bloquearInput)
         {
             if (direccion == 1) //Derecha
                 rigidbody.velocity = new Vector2(velocidadMovimiento, 0);
@@ -89,6 +100,11 @@ public class PersonajeMinijuego : MonoBehaviour
                 direccion = 3; //Cambiar direccion de la nave
             else if (Input.GetKeyDown(KeyCode.S))
                 direccion = 4; //Cambiar direccion de la nave
+            // Habilidades del usuario al hacer click
+            if (Input.GetButton("Fire1") && valorJug){
+                rigidbody.velocity = rigidbody.velocity * new Vector2(2,2);
+            }
+                
         }
     }
 }
