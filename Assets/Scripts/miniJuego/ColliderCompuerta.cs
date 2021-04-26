@@ -17,6 +17,7 @@ public class ColliderCompuerta : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.CompareTag("Player")){ //Revisar que sea el jugador
             //Mandar señal al padre
+            GetComponent<BoxCollider2D>().enabled = false;
             transform.parent.transform.parent.GetComponent<And>().RecibirCollider(other.gameObject.GetComponent<PersonajeMinijuego>(),numCollider);
             
         }

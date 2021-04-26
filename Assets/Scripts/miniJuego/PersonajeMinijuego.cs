@@ -15,7 +15,7 @@ public class PersonajeMinijuego : MonoBehaviour
 
     //Retardar la aparición del propulsor
     IEnumerator PrenderPropulsor(){
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.2f);
         transform.GetChild(2).GetComponent<SpriteRenderer>().enabled = true;
     }
 
@@ -48,9 +48,20 @@ public class PersonajeMinijuego : MonoBehaviour
         transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
     }
 
+    //Controlador or
+    public void Or(bool resultado, float yPos){
+        bloquearInput = true;
+        //Cambiar nave
+        valorJug = resultado;
+        CambiarNave();
+        //Mover nave
+        transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
+    }
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        CambiarNave();
     }
 
     // La nave siempre avanza a una direccion, el usuario establece cual.
