@@ -17,6 +17,7 @@ public class PersonajeMinijuego : MonoBehaviour
     public AudioSource boost; //Sonido de boost
     public AudioSource boom; //Sonido Explosion
     public AudioSource compuerta; //Sonido compuerta
+    private int vidas;
 
     //Retardar la aparición del propulsor
     IEnumerator PrenderPropulsor(){
@@ -99,19 +100,24 @@ public class PersonajeMinijuego : MonoBehaviour
     {
         //Si la colision es por una bala de la torreta o dron la nave explota
         if (collision.collider.name == "drone-1" || collision.collider.name == "disparoVerde(Clone)"){
-            explosion.SetBool("explota",true);
-            direccion = 0;
-            bloquearInput = true;
-            GetComponent<BoxCollider2D>().enabled = false;
-            boom.Play();
-            StartCoroutine(WaitForSceneLoad());
-            Eliminar();
+            vidas -= 1;
+            if (vidas == 0)
+            {
+                explosion.SetBool("explota", true);
+                direccion = 0;
+                bloquearInput = true;
+                GetComponent<BoxCollider2D>().enabled = false;
+                boom.Play();
+                StartCoroutine(WaitForSceneLoad());
+                Eliminar();
+            }
         }
     }
 
 
     void Start()
     {
+        vidas = 10;
         rigidbody = GetComponent<Rigidbody2D>();
         CambiarNave();
     }

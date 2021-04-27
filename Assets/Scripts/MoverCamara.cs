@@ -12,6 +12,7 @@ public class MoverCamara : MonoBehaviour
     // Start is called before the first frame update
     public float xSize;
     public float ySize;
+    
 
     public GameObject spriteLogicman;
     void Start()

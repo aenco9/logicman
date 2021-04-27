@@ -18813,7 +18813,7 @@ MonoBehaviour:
   textoNombre: {fileID: 0}
   textoContra: {fileID: 0}
   entrando: 0
-  nombreScrene: Login
+  nombreScrene: EndGame
   nivel: 5
 --- !u!61 &2006419707
 BoxCollider2D:
@@ -20371,7 +20371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3023044450900281424, guid: dbc7f32d1220d834fa7219e7b6380fda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.14
+      value: -6.4
       objectReference: {fileID: 0}
     - target: {fileID: 3023044450900281424, guid: dbc7f32d1220d834fa7219e7b6380fda, type: 3}
       propertyPath: m_LocalPosition.y
