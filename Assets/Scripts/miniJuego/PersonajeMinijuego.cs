@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Autores: Ruben Sanchez Mayen, Octavio Andrick Sanchez Perusquia
 // Descripcion: Controlador del Jugador en el minijuego. 
@@ -12,6 +13,7 @@ public class PersonajeMinijuego : MonoBehaviour
     private int direccion = 0; //Direccion del jugador
     public bool valorJug = true; //Que nave tiene el jugador? Son 2
     public bool bloquearInput = false;
+    public Animator explosion; //Controlar animacion de explosion
 
     //Retardar la aparición del propulsor
     IEnumerator PrenderPropulsor(){
@@ -25,10 +27,14 @@ public class PersonajeMinijuego : MonoBehaviour
             transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
             transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
             StartCoroutine(PrenderPropulsor()); //Prender con retardo el propulsor
+            //La nave no puede disparar
+            transform.GetChild(1).GetComponent<Disparo>().enabled = false;
         }else{ //Nave 2
             transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
             transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
             transform.GetChild(2).GetComponent<SpriteRenderer>().enabled = false;
+            //La nave puede disparar
+            transform.GetChild(1).GetComponent<Disparo>().enabled = true;
         }
     }
 
@@ -58,6 +64,46 @@ public class PersonajeMinijuego : MonoBehaviour
         transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
     }
 
+    //Rotar la nave segun su direccion
+    void Rotar(){
+        //Derecha
+        if(direccion == 1)
+            transform.rotation = new Quaternion(0,180,0,1);
+        else if(direccion == 2)
+            transform.rotation = new Quaternion(0,0,0,1);
+    }
+
+    //Eliminar jugador
+    void Eliminar(){
+        transform.GetChild(0).gameObject.active = false;
+        transform.GetChild(1).gameObject.active = false;
+        transform.GetChild(2).gameObject.active = false;
+    }
+
+    //Reiniciar Nivel
+    private IEnumerator WaitForSceneLoad()
+    {
+        //Espera 3 segundos y reinicia la escena
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    //Detectar colisiones con enemigos y balas
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Si la colision es por una bala de la torreta o dron la nave explota
+        if (collision.collider.name == "drone-1" || collision.collider.name == "disparoVerde(Clone)"){
+            explosion.SetBool("explota",true);
+            direccion = 0;
+            bloquearInput = true;
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<AudioSource>().Play();
+            StartCoroutine(WaitForSceneLoad());
+            Eliminar();
+        }
+    }
+
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -81,31 +127,27 @@ public class PersonajeMinijuego : MonoBehaviour
             else //Sin movimiento
                 rigidbody.velocity = new Vector2(0, 0);
 
-            //Input WASD
+            //Input Flechas
             if (Input.GetKeyDown("right"))
             {
                 direccion = 1; //Cambiar direccion de la nave
-                transform.localScale = new Vector3(1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown("left"))
             {
                 direccion = 2; //Cambiar direccion de la nave
-                transform.localScale = new Vector3(-1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown("up"))
                 direccion = 3; //Cambiar direccion de la nave
             else if (Input.GetKeyDown("down"))
                 direccion = 4; //Cambiar direccion de la nave
-            //Input FLECHAS
+            //Input WASD
             else if (Input.GetKeyDown(KeyCode.D))
             {
                 direccion = 1; //Cambiar direccion de la nave
-                transform.localScale = new Vector3(1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown(KeyCode.A))
             {
                 direccion = 2; //Cambiar direccion de la nave
-                transform.localScale = new Vector3(-1, 1, 1); //Cambiar la posicion de la nave
             }
             else if (Input.GetKeyDown(KeyCode.W))
                 direccion = 3; //Cambiar direccion de la nave
@@ -115,7 +157,9 @@ public class PersonajeMinijuego : MonoBehaviour
             if (Input.GetButton("Fire1") && valorJug){
                 rigidbody.velocity = rigidbody.velocity * new Vector2(2,2);
             }
-                
+
+            //Rotar la nave a la direccion correcta
+            Rotar();
         }
     }
 }
