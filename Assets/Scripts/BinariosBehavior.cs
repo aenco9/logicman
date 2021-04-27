@@ -5,6 +5,10 @@ using UnityEngine.UI;
 using System;
 using UnityEngine.SceneManagement;
 
+/*
+ * Control del minijuego de numeros binarios
+ * Autor: Alejandro Enriquez Coronado
+ */
 
 public class BinariosBehavior : MonoBehaviour
 {
@@ -22,7 +26,10 @@ public class BinariosBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Determina las variables y objetos iniciales
         saliendo = false;
+
+        //Areglo con los numeros que se preguntaran en el juego
         numeros = new int[] { 8, 16, 24, 120, 184, 255 };
         bits = new GameObject[8];
         resultado = GameObject.Find("Resultado");
@@ -31,6 +38,7 @@ public class BinariosBehavior : MonoBehaviour
         numTemporal = GameObject.Find("Resultado (1)");
         sonido = GetComponent<AudioSource>();
         rondas = 0;
+        //Guarda cada objeto en un arreglo de objetos
         for (int i = 0; i < bits.Length; i++)
         {
             bits[i] = GameObject.Find("Bit" + i.ToString());
@@ -82,7 +90,7 @@ public class BinariosBehavior : MonoBehaviour
 
     IEnumerator Flasher2()
     {
-        //Hace al sprite cambiar de color rapidamente dos veces
+        //Hace al sprite cambiar de color rapidamente dos veces en azul
         saliendo = true;
         excelente.SetActive(true);
         for (int i = 0; i < 5; i++)
@@ -97,11 +105,13 @@ public class BinariosBehavior : MonoBehaviour
 
     public void Reanudar()
     {
+        //Quita el menu de introduccion al minijuego
         UIIntro.SetActive(false);
     }
 
     int ConvertirADec(GameObject[] bits)
     {
+        //Convierte los valores del usuario de binario a base 10
         string bitConcat = "";
         for (int i = 0; i < bits.Length; i++)
         {
