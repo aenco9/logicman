@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\miniJuego\PersonajeMinijuego.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Underwater Diving\Scripts\DestroyObject.cs" />
+     <Compile Include="Assets\Scripts\miniJuego\End.cs" />
      <Compile Include="Assets\Underwater Diving\Scripts\HurtPlayer.cs" />
      <Compile Include="Assets\Scripts\MoverCamara.cs" />
      <Compile Include="Assets\Scripts\miniJuego\Collider2.cs" />

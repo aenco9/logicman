@@ -14,6 +14,9 @@ public class PersonajeMinijuego : MonoBehaviour
     public bool valorJug = true; //Que nave tiene el jugador? Son 2
     public bool bloquearInput = false;
     public Animator explosion; //Controlar animacion de explosion
+    public AudioSource boost; //Sonido de boost
+    public AudioSource boom; //Sonido Explosion
+    public AudioSource compuerta; //Sonido compuerta
 
     //Retardar la aparición del propulsor
     IEnumerator PrenderPropulsor(){
@@ -42,6 +45,7 @@ public class PersonajeMinijuego : MonoBehaviour
     public void Not(){ 
         valorJug = !valorJug;
         CambiarNave();
+        compuerta.Play();
     }
 
     //Controlador de and
@@ -52,6 +56,7 @@ public class PersonajeMinijuego : MonoBehaviour
         CambiarNave();
         //Mover nave
         transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
+        compuerta.Play();
     }
 
     //Controlador or
@@ -62,6 +67,7 @@ public class PersonajeMinijuego : MonoBehaviour
         CambiarNave();
         //Mover nave
         transform.position = new Vector3(transform.position.x,yPos,transform.position.z);
+        compuerta.Play();
     }
 
     //Rotar la nave segun su direccion
@@ -97,7 +103,7 @@ public class PersonajeMinijuego : MonoBehaviour
             direccion = 0;
             bloquearInput = true;
             GetComponent<BoxCollider2D>().enabled = false;
-            GetComponent<AudioSource>().Play();
+            boom.Play();
             StartCoroutine(WaitForSceneLoad());
             Eliminar();
         }
@@ -154,9 +160,11 @@ public class PersonajeMinijuego : MonoBehaviour
             else if (Input.GetKeyDown(KeyCode.S))
                 direccion = 4; //Cambiar direccion de la nave
             // Habilidades del usuario al hacer click
-            if (Input.GetButton("Fire1") && valorJug){
+            if (Input.GetButton("Fire1") && valorJug)
                 rigidbody.velocity = rigidbody.velocity * new Vector2(2,2);
-            }
+            //Solo suene una vez
+            if (Input.GetButtonDown("Fire1") && valorJug) 
+                boost.Play();
 
             //Rotar la nave a la direccion correcta
             Rotar();

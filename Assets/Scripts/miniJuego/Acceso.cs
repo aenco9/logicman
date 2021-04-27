@@ -8,6 +8,9 @@ using UnityEngine;
 public class Acceso : MonoBehaviour
 {
     public bool valorPermitido;
+    //Efectos de audio
+    public AudioSource permitido;
+    public AudioSource bloqueado;
 
     void ActualizarLetrero(){
         //Activar/Desactivar figuras de las naves en el letrero
@@ -25,9 +28,13 @@ public class Acceso : MonoBehaviour
         if(valorJug == valorPermitido){
             GetComponent<BoxCollider2D>().enabled = false;
             transform.GetChild(4).GetComponent<Renderer>().enabled = false;
+            permitido.Play();
         }
-        else
+        else{
+            GetComponent<BoxCollider2D>().enabled = true;
             transform.GetChild(4).GetComponent<Renderer>().enabled = true;
+            bloqueado.Play();
+        }
         
     }
 
