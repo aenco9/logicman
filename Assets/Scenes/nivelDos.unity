@@ -1181,7 +1181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8961777110836690694, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
       propertyPath: nombreScrene
-      value: nivelTres
+      value: Binarios
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
