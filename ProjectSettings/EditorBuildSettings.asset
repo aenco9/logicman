@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/miniGame.unity
     guid: 778ef3d0e3fec84428fdbc00fcb6b7a9
   - enabled: 1
+    path: Assets/Scenes/miniGame 2.unity
+    guid: 6aeac2d3b5231844e873f9334244101e
+  - enabled: 1
     path: Assets/Scenes/Binarios.unity
     guid: 9722c2f435873fe4ea951074b4246203
   - enabled: 1

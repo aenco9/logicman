@@ -249,7 +249,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 669426936}
         m_TargetAssemblyTypeName: Control, Assembly-CSharp
-        m_MethodName: cambiar
+        m_MethodName: cambiarLogin
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -343,7 +343,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 669426936}
         m_TargetAssemblyTypeName: Control, Assembly-CSharp
-        m_MethodName: cambiar
+        m_MethodName: cambiarLogin
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -775,6 +775,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textoNombre: {fileID: 0}
   textoContra: {fileID: 0}
+  entrando: 0
+  nombreScrene: 
+  nivel: 0
 --- !u!1 &885310360
 GameObject:
   m_ObjectHideFlags: 0

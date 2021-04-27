@@ -1183,8 +1183,31 @@ PrefabInstance:
       propertyPath: nombreScrene
       value: Binarios
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8961777110836690694, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
+--- !u!1 &370961005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2811266749100746913, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
+  m_PrefabInstance: {fileID: 370961004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &370961006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370961005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b327bbdeeba90854d9cdd9a6b76ec46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoNombre: {fileID: 0}
+  textoContra: {fileID: 0}
+  entrando: 0
+  nombreScrene: Binarios
+  nivel: 3
 --- !u!1 &420950115 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6965107757380421833, guid: 56c9f07cdd1511e42b7e18b9ac5df3e3, type: 3}

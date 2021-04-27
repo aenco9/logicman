@@ -1657,7 +1657,8 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8961777110836690694, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
 --- !u!1 &805220824
 GameObject:
@@ -3130,6 +3131,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1658668112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2811266749100746913, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
+  m_PrefabInstance: {fileID: 804196634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1658668114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658668112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b327bbdeeba90854d9cdd9a6b76ec46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoNombre: {fileID: 0}
+  textoContra: {fileID: 0}
+  entrando: 0
+  nombreScrene: miniGame
+  nivel: 1
 --- !u!1 &1738638425
 GameObject:
   m_ObjectHideFlags: 0

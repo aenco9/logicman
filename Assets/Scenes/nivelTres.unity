@@ -3979,8 +3979,31 @@ PrefabInstance:
       propertyPath: nombreScrene
       value: miniGame
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8961777110836690694, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
+--- !u!1 &1503959303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2811266749100746913, guid: 1a146d926d891a94da0abc17f304d961, type: 3}
+  m_PrefabInstance: {fileID: 1503959302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1503959304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503959303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b327bbdeeba90854d9cdd9a6b76ec46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoNombre: {fileID: 0}
+  textoContra: {fileID: 0}
+  entrando: 0
+  nombreScrene: miniGame 2
+  nivel: 4
 --- !u!1 &1586691703
 GameObject:
   m_ObjectHideFlags: 0

@@ -13478,8 +13478,8 @@ GameObject:
   - component: {fileID: 2006419709}
   - component: {fileID: 2006419708}
   - component: {fileID: 2006419707}
-  - component: {fileID: 2006419706}
   - component: {fileID: 2006419705}
+  - component: {fileID: 2006419706}
   m_Layer: 0
   m_Name: End
   m_TagString: Untagged
@@ -13592,10 +13592,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2006419704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1f4d2d485e773e44870dd8750d01e92, type: 3}
+  m_Script: {fileID: 11500000, guid: b327bbdeeba90854d9cdd9a6b76ec46d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  siguienteEscena: nivelDos
+  textoNombre: {fileID: 0}
+  textoContra: {fileID: 0}
+  entrando: 0
+  nombreScrene: nivelDos
+  nivel: 2
 --- !u!61 &2006419707
 BoxCollider2D:
   m_ObjectHideFlags: 0
