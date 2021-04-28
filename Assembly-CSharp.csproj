@@ -77,6 +77,7 @@
      <Compile Include="Assets\Underwater Diving\Scripts\MineController.cs" />
      <Compile Include="Assets\Scripts\miniJuego\And.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Scripts\miniJuego\SaludNave.cs" />
      <Compile Include="Assets\Scripts\BinariosBehavior.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\AlternarBit.cs" />
