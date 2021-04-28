@@ -27,8 +27,8 @@ public class Control : MonoBehaviour
     public void RegistrarHora(int nivel)
     {
         Horas[nivel] = DateTime.Now;
-        print(Horas[nivel]);
     }
+
 
     public void GuardarDatos()
     {
@@ -84,8 +84,11 @@ public class Control : MonoBehaviour
     private IEnumerator RegistrarTiempo()
     {
         var segundos1 = (Horas[1] - Horas[0]).TotalSeconds;
-        var segundos2 = (Horas[4] - Horas[2]).TotalSeconds/2;
-        var segundos3 = (Horas[5] - Horas[4]).TotalSeconds;
+        var segundos2 = (Horas[4] - Horas[2]).TotalSeconds / 2;
+        var segundos3 = (DateTime.Now - Horas[4]).TotalSeconds;
+
+
+
         //Se crea una forma con los datos que el usuario haya ingresados
         WWWForm forma = new WWWForm();
 
@@ -108,8 +111,6 @@ public class Control : MonoBehaviour
     }
 
 
-    
-
     //Cuando se choca con un circle collider, se cambia de escena
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -125,31 +126,54 @@ public class Control : MonoBehaviour
         //Revisar que sea el jugador
         if (other.gameObject.CompareTag("Player"))
         {
-           
+
             entrando = true;
         }
     }
     // Update is called once per frame
     void Update()
-    {   
+    {
         //Cambia de escena si las condiciones son correctas
         if (entrando)
         {
-                      
+
             Scene escenaActual = SceneManager.GetActiveScene();
-            print(escenaActual.name);
             if (escenaActual.name == "miniGame 2")
             {
-                print(escenaActual.name);
                 RegistrarTiempoRutina();
+                RegistrarSesionRutina();
             }
             cambiar(nombreScrene, nivel);
         }
     }
 
+    public void RegistrarSesionRutina()
+    {
+        //Concurrente
+        StartCoroutine(routine: RegistrarSesion());
+    }
+    private IEnumerator RegistrarSesion()
+    {
 
+        WWWForm forma = new WWWForm();
 
+        forma.AddField("usuario", value: nombre);
+        forma.AddField("contra", value: contra);
+        forma.AddField("datos1", value: Horas[0].ToString());
+        forma.AddField("datos2", value: DateTime.Now.ToString());
 
-    
+        //Se hace un post al server con los datos para que conecte con la base de datos
+        UnityWebRequest request = UnityWebRequest.Post("http://3.22.165.183:8080/postAgregarSesion", forma);
+        yield return request.SendWebRequest();
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            print("a");
+        }
+        else
+        {
+            print("Error en la descarga: ");
+        }
+    }
+
 
 }
