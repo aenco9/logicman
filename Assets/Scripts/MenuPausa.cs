@@ -4,14 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Controlador para pausar el juego y administrar elementos del canvas
+ * Autor: Octavio Andrick Sánchez Perusquia
+ */
+
 public class MenuPausa : MonoBehaviour
 {
     public static bool estaPausado = false;
     public GameObject UIMenuPausa;
 
-    // Update is called once per frame
     void Update()
     {
+        //Pausar y reanudar al presionar ESC
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (estaPausado)
@@ -38,12 +43,14 @@ public class MenuPausa : MonoBehaviour
         estaPausado = true;
     }
 
+    //Cambiar al splashcreen al seleccionar la opcion
     public void CargarMenu()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("SplashScreen");
     }
 
+    //Cerrar la aplicación al seleccionar la opción
     public void Salir()
     {
         Debug.Log("Saliendo...");
