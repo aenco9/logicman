@@ -62,7 +62,7 @@ public class Control : MonoBehaviour
         forma.AddField("nombre", value: textoNombre.text);
         forma.AddField("contra", value: textoContra.text);
 
-        UnityWebRequest request = UnityWebRequest.Post("http://3.22.165.183:8080/postVer", forma);
+        UnityWebRequest request = UnityWebRequest.Post("https://3.22.165.183:8080/postVer", forma);
         yield return request.SendWebRequest();
         if (request.result == UnityWebRequest.Result.Success)
         {
@@ -98,7 +98,7 @@ public class Control : MonoBehaviour
         forma.AddField("datos2", value: segundos2.ToString());
         forma.AddField("datos3", value: segundos3.ToString());
         //Se hace un post al server con los datos para que conecte con la base de datos
-        UnityWebRequest request = UnityWebRequest.Post("http://3.22.165.183:8080/postActualizarJugador", forma);
+        UnityWebRequest request = UnityWebRequest.Post("https://3.22.165.183:8080/postActualizarJugador", forma);
         yield return request.SendWebRequest();
         if (request.result == UnityWebRequest.Result.Success)
         {
@@ -163,7 +163,7 @@ public class Control : MonoBehaviour
         forma.AddField("datos2", value: DateTime.Now.ToString());
 
         //Se hace un post al server con los datos para que conecte con la base de datos
-        UnityWebRequest request = UnityWebRequest.Post("http://3.22.165.183:8080/postAgregarSesion", forma);
+        UnityWebRequest request = UnityWebRequest.Post("https://3.22.165.183:8080/postAgregarSesion", forma);
         yield return request.SendWebRequest();
         if (request.result == UnityWebRequest.Result.Success)
         {
