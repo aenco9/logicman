@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EndGame.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 6495a4b00697f2d44805f5616a732aea
   - enabled: 1
     path: Assets/Scenes/nivelUno.unity
     guid: 3c56e4a1baddac84181ca848bbb02761
@@ -33,9 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/nivelDos.unity
     guid: 4cde2d984ff904d4fa319b3a94ce5894
   - enabled: 1
-    path: Assets/Scenes/SplashScreen.unity
-    guid: 6495a4b00697f2d44805f5616a732aea
-  - enabled: 1
     path: Assets/Scenes/nivelTres.unity
     guid: 662f7255a811e0d458d8f0a9e12a3038
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

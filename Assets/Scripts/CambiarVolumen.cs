@@ -25,7 +25,6 @@ public class CambiarVolumen : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Debug.Log("Cambiando...");
             float valor = slider.value;
             mixer.SetFloat("VolumenMusica", Mathf.Log10(valor) * 20);
             PlayerPrefs.SetFloat("VolumenMusica", valor);
