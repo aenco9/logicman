@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 
 /*
  * Controlador para pausar el juego y administrar elementos del canvas
- * Autor: Octavio Andrick Sánchez Perusquia
+ * Autor: Octavio Andrick Sï¿½nchez Perusquia, Ruben Sanchez Mayen
  */
 
 public class MenuPausa : MonoBehaviour
 {
     public static bool estaPausado = false;
     public GameObject UIMenuPausa;
+    public GameObject panelInstrucciones;
+    public PersonajeMinijuego naveMiniJuego;
 
     void Update()
     {
@@ -50,11 +52,16 @@ public class MenuPausa : MonoBehaviour
         SceneManager.LoadScene("SplashScreen");
     }
 
-    //Cerrar la aplicación al seleccionar la opción
+    //Cerrar la aplicaciï¿½n al seleccionar la opciï¿½n
     public void Salir()
     {
         Debug.Log("Saliendo...");
         Application.Quit();
+    }
+
+    public void EsconderInstrucciones(){
+        panelInstrucciones.SetActive(false);
+        naveMiniJuego.bloquearInput = false;
     }
 }
 

@@ -12,7 +12,7 @@ public class PersonajeMinijuego : MonoBehaviour
     private Rigidbody2D rigidbody;
     private int direccion = 0; //Direccion del jugador
     public bool valorJug = true; //Que nave tiene el jugador? Son 2
-    public bool bloquearInput = false;
+    public bool bloquearInput = true;
     public Animator explosion; //Controlar animacion de explosion
     public AudioSource boost; //Sonido de boost
     public AudioSource boom; //Sonido Explosion
@@ -95,12 +95,27 @@ public class PersonajeMinijuego : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    IEnumerator Flasher()
+    {
+        //Cada que recibe da�o, cambia el color dos veces
+        for (int i = 0; i < 2; i++)
+        {
+            transform.GetChild(0).GetComponent<Renderer>().material.color = Color.black;
+            transform.GetChild(1).GetComponent<Renderer>().material.color = Color.black;
+            yield return new WaitForSeconds(.05f);
+            transform.GetChild(0).GetComponent<Renderer>().material.color = Color.white;
+            transform.GetChild(1).GetComponent<Renderer>().material.color = Color.white;
+            yield return new WaitForSeconds(.05f);
+        }
+    }
+
     //Detectar colisiones con enemigos y balas
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //Si la colision es por una bala de la torreta o dron la nave explota
         if (collision.collider.name == "drone-1" || collision.collider.name == "disparoVerde(Clone)"){
             vidas -= 1;
+            StartCoroutine(Flasher());
             if (vidas == 0)
             {
                 explosion.SetBool("explota", true);
@@ -114,6 +129,9 @@ public class PersonajeMinijuego : MonoBehaviour
         }
     }
 
+    public int GetVidas(){
+        return vidas;
+    }
 
     void Start()
     {
