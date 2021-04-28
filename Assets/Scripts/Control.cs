@@ -83,9 +83,9 @@ public class Control : MonoBehaviour
     }
     private IEnumerator RegistrarTiempo()
     {
-        var segundos1 = (Horas[1] - Horas[0]).TotalSeconds;
-        var segundos2 = (Horas[4] - Horas[2]).TotalSeconds / 2;
-        var segundos3 = (DateTime.Now - Horas[4]).TotalSeconds;
+        var segundos1 = 104 - (Horas[1] - Horas[0]).TotalSeconds;
+        var segundos2 = 130 -(Horas[4] - Horas[2]).TotalSeconds / 2;
+        var segundos3 = 130 - (DateTime.Now - Horas[4]).TotalSeconds;
 
 
 
